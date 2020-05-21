@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script>
-        document.getElementById("login").onclick = function() {sanitize()};
+        document.getElementById("login").onclick;
         function sanitize() {
             var emailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
             var e = document.forms["email"].value;
@@ -43,7 +43,7 @@
                         <div class="form-group">
                             <input type="password" class="form-control border-0 mt-5" id="badgeID" placeholder="Type Badge ID Here">
                         </div>
-                        <button type="submit" id="login" class="btn btn-primary btn-block text-white bg-dark mt-5">Login</button>
+                        <button type="submit" id="login" class="btn btn-primary btn-block text-white bg-dark mt-5">Login<span class="glyphicon glyphicon-print"></span></button>
                         <button type="submit" class="btn btn-light btn-block text-danger mt-5">Don't know your Password? <a href="#" class="text-danger"><u>Press here!</u></a></button>
                         </form>
                     </div>
